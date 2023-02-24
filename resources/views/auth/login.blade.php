@@ -13,7 +13,7 @@
         <div class="block xl:grid grid-cols-2 gap-4">
             <!-- BEGIN: Login Info -->
             <div class="hidden xl:flex flex-col min-h-screen text-center">
-                <a href="" class="-intro-x flex items-center pt-5 text-center inline-block">
+                <a href="/" class="-intro-x flex items-center pt-5 text-center inline-block">
                     <img alt="Midone - HTML Admin Template" class="w-6 text-center inline-block" src="http://rubick.left4code.com/dist/images/logo.svg">
                     <span class="text-white text-lg ml-3">
                         GUPE

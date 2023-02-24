@@ -26,7 +26,7 @@
 
         <thead class="text-white">
 
-            <tr>
+            <tr class="bg-gray-100 border dark:border-gray-600 dark:text-white dark:bg-gray-600">
 
                 <th>ID</th>
 
@@ -44,8 +44,10 @@
 
             @foreach($posts as $post)
 
-            <tr class="text-white text-center">
+            <tr class="text-center bg-gray-100 border dark:border-gray-600 dark:text-white dark:bg-gray-800">
 
+
+                
                 <td>{{ $post->id }}</td>
 
                 <td>{{ $post->title }}</td>

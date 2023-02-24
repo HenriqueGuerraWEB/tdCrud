@@ -13,8 +13,17 @@
                 <!-- Navigation Links -->
                 <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
                     <x-nav-link href="{{ route('dashboard') }}" :active="request()->routeIs('dashboard')">
-                        {{ __('Dashboard') }}
+                        {{ __('Painel') }}
                     </x-nav-link>
+                    <x-nav-link href="{{ url('/dashboard/modals') }}" :active="request()->routeIs('dashboard/modals')">
+                        {{ __('Modal') }}
+                    </x-nav-link> 
+                    <x-nav-link href="{{ url('/dashboard/fileupload') }}" :active="request()->routeIs('dashboard/fileupload')">
+                        {{ __('File Upload') }}
+                    </x-nav-link>       
+                    <x-nav-link href="{{ url('/dashboard/posts') }}" :active="request()->routeIs('dashboard/posts')">
+                        {{ __('Blog') }}
+                    </x-nav-link>                                                       
                 </div>
             </div>
 
